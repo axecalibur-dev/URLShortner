@@ -39,6 +39,7 @@ def encode_base62(num: int) -> str:
         raise ValueError(f"Cannot encode negative integer: {num}")
     if num == 0:
         return SHUFFLED_ALPHABET[0]
+    ##
 
     digits = []
     while num > 0:
