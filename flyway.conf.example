@@ -1,0 +1,9 @@
+# Flyway Configuration Example
+
+flyway.url=jdbc:postgresql://localhost:5432/shorturldb
+flyway.user=shorturl_user
+flyway.password=password123
+flyway.schemas=public
+flyway.locations=filesystem:app/migrations
+flyway.baselineOnMigrate=true
+flyway.cleanDisabled=true
