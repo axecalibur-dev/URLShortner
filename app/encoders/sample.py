@@ -39,7 +39,7 @@ def encode_base62(num: int) -> str:
         raise ValueError(f"Cannot encode negative integer: {num}")
     if num == 0:
         return SHUFFLED_ALPHABET[0]
-    ##this is dev branch
+    ##this is dev branch with minor commi
 
     digits = []
     while num > 0:
